@@ -18,7 +18,7 @@ const ALLOWED_ORIGINS = [
 ];
 
 if (!process.env.OPENAI_API_KEY) {
-    console.warn("Falta OPENAI_API_KEY en variables de entorno.");
+    console.warn("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");
 }
 
 const openai = new OpenAI({
